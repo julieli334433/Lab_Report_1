@@ -18,6 +18,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 ## Trying Some Commands
 1. For this part try to plug in some commands such as this:
+- pwd, cd, cp, ls, mkdir
 <img width="1440" alt="Screen Shot 2023-04-10 at 12 37 35 PM" src="https://user-images.githubusercontent.com/130112383/231018724-d2aa4bc9-eb68-49c4-9ee7-f5ec6ca78b20.png">
 
 
