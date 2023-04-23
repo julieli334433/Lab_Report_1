@@ -9,6 +9,7 @@
 ## Remotely Connecting
 1. When you get to that page open up the terminal and write ssh and add cs15lsp23zz@ieng6.ucsd.edu(for the 2 z's change it to your course-specific account)
 `ssh cs15lsp23zz@ieng6.ucsd.edu`
+
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
@@ -21,6 +22,23 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ## Trying Some Commands
 1. For this part try to plug in some commands such as this:
 - `pwd`, `cd`, `cp`, `ls`, `mkdir`
+
+**Explanation of each command**
+- `pwd` this command writes out the full path name of the current directory
+- `cd` this command is known as change directory and  is used to change the current working directory
+- `cp` this command allows you to copy your files or directories
+- `ls` this command is used to list files and directories
+- `mkdir` creates a new directory
+- hint: The directory "." refers to the working directory and ".." refers to its parent directory
+
 <img width="1440" alt="Screen Shot 2023-04-10 at 12 37 35 PM" src="https://user-images.githubusercontent.com/130112383/231018724-d2aa4bc9-eb68-49c4-9ee7-f5ec6ca78b20.png">
+
+2. In this image there have been multiple commands that I have used. 
+- first I have used `pwd` to show my current directory
+- then I put `cp /home/linux/ieng6/cs15lsp23/public/hello.txt~/`, and after `ls -a`, which shows hidden files
+- I tried the same thing but changed to `ls -lat`, the 'l' stands for long format, 'a' stands for hidden files and the 't' stands for sort list
+- I then wanted to create a new directory so I used `mkdir` and typed folder000, next used `cd folder000` to change the directory
+- To see if it works I used `pwd` to show the new current directory
+- To delete the changes I put `cd ..` then `pwd` which shows folder000 deleted
 
 
