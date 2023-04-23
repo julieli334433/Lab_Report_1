@@ -7,8 +7,8 @@
 
 
 ## Remotely Connecting
-1. When you get to that page open up the terminal and write ssh and add cs15lsp23zz@ieng6.ucsd.edu(for the 2 z's change it to your course-specific account)
-`ssh cs15lsp23zz@ieng6.ucsd.edu`
+1. When you get to that page open up the terminal and write `ssh` and add `cs15lsp23zz@ieng6.ucsd.edu`(for the 2 z's change it to your course-specific account)
+-for example: `ssh cs15lsp23zz@ieng6.ucsd.edu`
 
 ```
 The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
